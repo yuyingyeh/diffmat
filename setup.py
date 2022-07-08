@@ -26,7 +26,7 @@ setup(
              'gradient descent, optimization',
     packages=find_packages(),
     install_requires=[
-        'torch>=1.11.0',
+        'torch<=1.11.0',
         'torchvision>=0.12.0',
         'numpy>=1.21.5'
         'scipy>=1.7.3',
