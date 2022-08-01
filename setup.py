@@ -8,7 +8,7 @@ README = (HERE / "README.md").read_text()
 DESC = ('Differentiable procedural material library based on PyTorch, supporting material graph '
         'translation and parameter optimization against user-input appearance captures')
 
-REQUIRES_PYTHON = '>=3.6.9'
+REQUIRES_PYTHON = '>=3.7.0'
 VERSION = '0.1.0'
 
 # Run setup
@@ -26,12 +26,12 @@ setup(
              'gradient descent, optimization',
     packages=find_packages(),
     install_requires=[
-        'torch<=1.11.0',
-        'torchvision<=0.12.0',
-        'numpy<=1.21.5'
+        'torch<=1.10',
+        'torchvision<=0.11',
+        'numpy>=1.21.5'
         'scipy>=1.7.3',
         'imageio>=2.9.0',
-        'pandas<=1.3.5',
+        'pandas>=1.3.5',
         'pyyaml>=6.0'
     ],
     include_package_data=True,
