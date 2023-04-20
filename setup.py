@@ -28,7 +28,7 @@ setup(
     install_requires=[
         'torch',
         'torchvision',
-        'numpy'
+        'numpy',
         'scipy',
         'imageio',
         'pandas',
