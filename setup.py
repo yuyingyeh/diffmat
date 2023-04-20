@@ -26,13 +26,13 @@ setup(
              'gradient descent, optimization',
     packages=find_packages(),
     install_requires=[
-        'torch>=1.10.1',
-        'torchvision>=0.11.2',
-        'numpy>=1.21.5'
-        'scipy>=1.7.3',
-        'imageio>=2.9.0',
-        'pandas>=1.3.5',
-        'pyyaml>=6.0'
+        'torch',
+        'torchvision',
+        'numpy'
+        'scipy',
+        'imageio',
+        'pandas',
+        'pyyaml'
     ],
     include_package_data=True,
     license='Custom License',
